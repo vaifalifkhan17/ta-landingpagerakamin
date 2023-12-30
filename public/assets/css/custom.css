@@ -1,0 +1,293 @@
+.fs-7{
+	font-size: 13px;
+}
+
+.fs-8{
+	font-size: 11px;
+}
+
+.mt-n3{
+	margin-top: -1.85em;
+}
+
+.mb-n3{
+	margin-bottom: -1.85em;
+}
+.pe-4half {
+	padding-right: 2rem;
+}
+
+.bx {
+	font-size: 1.25em;
+	margin-top: 0.1rem;
+}
+
+.btn {
+	font-size: 0.825rem;
+}
+.btn-lg {
+	font-size: 1rem;
+}
+.bg-primary-gradient {
+	background: linear-gradient(115deg, rgba(255,109,11,1) 0%, rgb(255, 197, 158) 100%);
+}
+.bg-blue-gradient {
+    background: linear-gradient(115deg,#3072ee 0%,#7daaff 100%);
+}
+
+.nav-logo {
+	max-width: 6rem;
+}
+.nav-link {
+	font-size: 0.825rem;
+	white-space: nowrap;
+}
+.nav-link i {
+	font-size: 1rem;
+}
+
+#banner {
+	background: url('/assets/images/bg-cloud.png');
+    background-size: cover;     
+	background-position: center center;
+	min-height: 100vh;
+}
+
+.new-promo {
+    width: 280px;
+    height: 115px;
+    box-shadow: 0px 4px 15px rgba(190,190,190,.3);
+    border-radius: 44px 0 0 44px;
+    position: absolute;
+    right: 0;
+    top: 380px;
+    cursor: pointer;
+	overflow-x: hidden;
+}
+
+.stroke{
+	position:absolute;
+	-webkit-text-stroke: 4px white;
+}  
+.no-stroke{
+	color:#FF6D0B;
+	position: absolute;
+}
+
+.promo-bg {
+	position: absolute;
+}
+
+.promo-illustration {
+    position: absolute;
+    width: 160px;
+    right: 170px;
+    top: 385px;
+    animation: tilt 3s cubic-bezier(.68,-.6,.32,1.6) infinite;
+    cursor: pointer;
+}
+@keyframes tilt {
+    0% {
+        transform: rotate(0deg) scale(1) translateX(0px)
+    }
+
+    25% {
+        transform: rotate(0deg) scale(1) translateX(0px)
+    }
+
+    50% {
+        transform: rotate(15deg) scale(1.1) translateX(-30px)
+    }
+
+    55% {
+        transform: rotate(16deg) scale(1.1) translateX(-30px)
+    }
+
+    60% {
+        transform: rotate(14deg) scale(1.1) translateX(-30px)
+    }
+
+    65% {
+        transform: rotate(15deg) scale(1.1) translateX(-30px)
+    }
+
+    85% {
+        transform: rotate(0deg) scale(1) translateX(0px)
+    }
+
+    100% {
+        transform: rotate(0deg) scale(1) translateX(0px)
+    }
+}
+.promo-arrow {
+	position: absolute;
+    width: 95px;
+    right: 140px;
+    top: 500px;
+    /* animation: tilt 3s cubic-bezier(.68,-.6,.32,1.6) infinite; */
+}
+
+#btn-chat {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem; 
+	height: 60px;
+	width: 60px;
+	background-color: white;
+	border-radius: 50%;
+	font-size: 1.75rem;
+	z-index: 99;
+}
+
+#domain {
+	background: url('/assets/images/bg-domain.png');
+	background-position: top; 
+    background-size: cover;           
+}
+p, input, select {
+	font-size: 0.9rem !important;
+}
+select {
+	padding-right: 2.5rem;
+}
+
+
+
+.vr {
+    display: inline-block;
+    align-self: stretch;
+    width: 1px;
+    min-height: 1em;
+    background-color: white;
+    opacity: .5;
+}
+
+.absolute-bottom {
+	position: absolute;
+	bottom: 0;
+}
+#package .col {
+	min-height: 400px;
+	max-width: 240px;
+}
+#featured {
+	background-color: #fff8f3;
+}
+#featured .col {
+	/* min-height: 300px; */
+	max-width: 330px;
+}
+
+#solution .card img {
+    position: absolute;
+    width: 90%;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+	vertical-align: middle;
+}
+#solution .card {
+	background: url('/assets/images/solution-card.png');
+    background-size: cover;     
+	background-position: center center;
+	padding-bottom: 3rem;
+	height: 100%;
+	overflow-y: hidden;
+	border-radius: 1rem;
+}
+.card-text {
+	z-index: 3;
+	margin-right: 6rem;
+}
+.card-text p, #commitment .card p {
+	font-size: small !important;
+}
+
+#commitment .card {
+	border: none;
+	height: 100%;
+	padding: 0 5rem;
+}
+#commitment img {
+	max-width: 3rem;
+}
+
+#bikin-website img{
+	max-width: 360px;
+	width: 100%;
+}
+#bikin-website a p {
+	width: fit-content !important;
+}
+#bikin-website a {
+	text-decoration: none;
+}
+#bikin-website a:hover {
+	text-decoration: underline;
+}
+#bikin-website .row {
+	border-radius: 1rem;
+}
+
+#partner img {
+	max-width: 150px;
+}
+.partners img {
+	max-width: 4rem;
+}
+
+#testimoni img {
+	max-width: 450px;
+}
+
+#diliput-oleh img {
+	max-width: 200px;
+	width: 100%;
+}
+
+.accordion-button {
+	background-color: white !important;
+}
+
+#kantor {
+	background: rgb(255,109,11);
+	background: linear-gradient(115deg, rgba(255,109,11,1) 0%, rgb(255, 160, 96) 100%);
+}
+
+#kantor .bx {
+	font-size: 13px !important;
+	padding-top: 0.04rem;
+}
+
+#footer a {
+	text-decoration: none;
+	color: inherit;
+	
+}
+#footer a:hover {
+	text-decoration: underline; 
+	color: #FF6D0B;
+}
+
+#bantuan {
+	background: url(https://qwords.com/v2/wp-content/themes/qwords/assets/images/shapes/bantuan.png);
+    background-size: cover;     
+	background-position: center center;
+}
+#bantuan a {
+	text-decoration: none; 
+	color: inherit;
+}
+#bantuan .btn-dark {
+	opacity: 0.9;
+}
+
+.socmed i{
+	font-size: 2rem;
+}
+
+@media (min-width: 992px) {
+	/* .domain-bar {
+		max-width: 85%;
+	} */
+}
