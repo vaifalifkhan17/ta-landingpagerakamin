@@ -1,5 +1,4 @@
-# Redesign Landing Page (Final Project Qwords Fullstack Developer Project Based Internship Rakamin Academy) 
-Oleh: Tsanaativa Vinnera
+Mochammad Vaif Dwi Alifkhan
 
 ## Cara run website
 
